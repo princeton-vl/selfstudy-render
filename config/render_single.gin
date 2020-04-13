@@ -1,0 +1,38 @@
+# Parameters for batch:
+# ==============================================================================
+batch.cache_obj_frames = 10
+batch.idx_offset = 0
+batch.num_samples = 20
+
+# Parameters for lighting:
+# ==============================================================================
+lighting.r = 0
+
+# Parameters for material:
+# ==============================================================================
+material.color_intensity = 0
+material.color_variation = 0.2
+material.num_modes = 1
+material.use_color_ref = True
+material.use_emission = False
+material.use_texture = True
+
+# Parameters for object:
+# ==============================================================================
+object.random_scaling = 0
+object.random_viewpoint = 0.5
+object.random_warp = 0.1
+object.total_num_samples = 60000
+
+# Parameters for rendering:
+# ==============================================================================
+rendering.render_exr = False
+rendering.render_samples = 32
+rendering.renderer = 'cycles'
+rendering.resolution = 128
+rendering.use_gpu = False
+
+# Parameters for sample:
+# ==============================================================================
+sample.class_idxs = [0]
+sample.num_objs = 1
